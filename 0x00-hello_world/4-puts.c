@@ -8,7 +8,9 @@
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle");
-
+	const char *MyMessage = ("Programming is like building a multilingual puzzle");
+	
+	puts(MyMessage);
+	
 	return (0);
 }
