@@ -18,19 +18,19 @@ void print_times_table(int n)
 	for (row = 0; row <= n; row++)
 	{
 		_putchar('0');
-		for (column = 0; column <= n; column++)
+		for (column = 1; column <= n; column++)
 		{
 			_putchar(',');
 			_putchar(' ');
 
 			result = row * column;
 
-			if (result <= 9)
+			if (result <= 99)
 			{
 				_putchar(' ');
 			}
 
-			if (result <= 99)
+			if (result <= 9)
 			{
 				_putchar(' ');
 			}
