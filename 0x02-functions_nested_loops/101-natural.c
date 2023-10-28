@@ -13,13 +13,13 @@ int main(void)
 
 	for (int i = 1; i < limit; i++)
 	{
-		if (i % 3 = 0 || i % 5 = 0)
+		if (i % 3 == 0 || i % 5 == 0)
 		{
 			sum++;
 		}
 	}
 
-	printf( "%d", sum);
+	printf("%d", sum);
 
 	return (0);
 }
