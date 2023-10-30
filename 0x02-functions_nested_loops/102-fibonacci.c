@@ -13,13 +13,13 @@ int main(void)
 	long long int next;
 	int i;
 
-	printf("%lld, %lld, , ", fib1, fib2);
+	printf("%d, %d, , ", fib1, fib2);
 
 	for (i = 3; i <= 50; i++)
 	{
 		next = fib1 + fib2;
 
-		printf("%lld", next);
+		printf("%d", next);
 
 		if (i < 50)
 		{
