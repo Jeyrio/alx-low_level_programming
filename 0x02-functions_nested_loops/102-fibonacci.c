@@ -8,19 +8,19 @@
  */
 int main(void)
 {
-	long long fib1 = 1;
-	long long fib2 = 2
-	long long next;
+	long long int fib1 = 1;
+	long long int fib2 = 2
+	long long int next;
 	int i;
-	
+
 	printf("%lld, %lld, , ", fib1, fib2);
-	
+
 	for (i = 3; i <= 50; i++)
 	{
 		next = fib1 + fib2;
 
 		printf("%lld", next);
-		
+
 		if (i < 50)
 		{
 			printf(", ", i);
@@ -29,10 +29,10 @@ int main(void)
 		{
 			printf("\n");
 		}
-		
+
 		fib1 = fib2;
 		fib2 = next;
 	}
-	
+
 	return (0);
 }
