@@ -13,7 +13,7 @@ int main(void)
 	long int next;
 	int i;
 
-	printf("%ld, %ld, , ", fib1, fib2);
+	printf("%ld, %ld, ", fib1, fib2);
 
 	for (i = 3; i <= 50; i++)
 	{
