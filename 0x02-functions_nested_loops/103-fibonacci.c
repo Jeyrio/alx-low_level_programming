@@ -29,7 +29,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = next;
 	}
-	printf("%ld\n", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
