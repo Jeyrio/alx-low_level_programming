@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-	int fib1 = 1;
-	int fib2 = 2;
-	int next;
+	unsigned int fib1 = 1;
+	unsigned int fib2 = 2;
+	unsigned int next;
 	int n;
 
-	printf("%d, %d, ", fib1, fib2);
+	printf("%u, %u, ", fib1, fib2);
 
 	for (n = 3; n <= 98; n++)
 	{
 		next = fib1 + fib2;
-		printf("%d", next);
+		printf("%u", next);
 
 		if (n < 98)
 		{
