@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	unsigned long int fib1 = 1;
-	unsigned long int fib2 = 2;
-	unsigned long int next;
+	int fib1 = 1;
+	int fib2 = 2;
+	int next;
 	int n;
 
 	printf("%d, %d, ", fib1, fib2);
