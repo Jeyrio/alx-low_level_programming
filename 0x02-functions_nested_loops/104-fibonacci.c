@@ -12,7 +12,7 @@ int main(void)
 	long int next;
 	int n;
 
-	printf("%ld, %ld, ", fib1 fib2);
+	printf("%ld, %ld, ", fib1, fib2);
 
 	next = fib1 + fib2;
 
