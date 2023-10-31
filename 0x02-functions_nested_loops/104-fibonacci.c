@@ -18,19 +18,22 @@ int main(void)
 
 	for (n = 3; n <= 98; n++)
 	{
-		printf("%ld", next);
-
-		if (n < 98)
+		next = fib1 + fib2;
 		{
-			printf(", ");
+			printf("%ld", next);
+			
+			if (n < 98)
+			{
+				printf(", ");
+			}
+			else
+			{
+				printf("\n");
+			}
+			
+			fib1 = fib2;
+			fib2 = next;
 		}
-		else
-		{
-			printf("\n");
-		}
-
-		fib1 = fib2;
-		fib2 = next;
 	}
 
 	return (0);
