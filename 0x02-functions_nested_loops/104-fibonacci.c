@@ -14,8 +14,6 @@ int main(void)
 
 	printf("%ld, %ld, ", fib1, fib2);
 
-	next = fib1 + fib2;
-
 	for (n = 3; n <= 98; n++)
 	{
 		next = fib1 + fib2;
