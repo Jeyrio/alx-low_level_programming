@@ -14,6 +14,7 @@ int main(void)
 	unsigned long half1, half2;
 	int n;
 
+	printf("%lu, %lu, ", fib1, fib2);
 	for (n = 3; n < 90; n++)
 	{
 		next = fib1 + fib2;
@@ -21,7 +22,6 @@ int main(void)
 		fib1 = fib2;
 		fib2 = next;
 	}
-
 	fib1_half1 = fib1 / 10000000000;
 	fib1_half2 = fib1 % 10000000000;
 	fib2_half1 = fib2 / 10000000000;
