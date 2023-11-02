@@ -27,7 +27,7 @@ int main(void)
 	fib2_half1 = fib2 / 10000000000;
 	fib2_half2 = fib2 % 10000000000;
 
-	for (n = 91; n <= 98; n++)
+	for (n = 91; n < 99; n++)
 	{
 		half1 = fib1_half1 + fib2_half1;
 		half2 = fib1_half2 + fib2_half2;
