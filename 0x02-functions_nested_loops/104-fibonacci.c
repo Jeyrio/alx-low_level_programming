@@ -38,7 +38,7 @@ int main(void)
 			half2 = half2 % 10000000000;
 		}
 		printf("%lu, %lu", half1, half2);
-		if (n < 98)
+		if (n != 98)
 		{
 			printf(",");
 		}
