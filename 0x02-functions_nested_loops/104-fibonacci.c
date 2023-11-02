@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n;
-	unsigned long fib1 = 1, fib2 = 2, next;
+	unsigned long fib1 = 0, fib2 = 1, next;
 	unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
 	unsigned long half1, half2;
 
@@ -37,7 +37,7 @@ int main(void)
 			half2 %= 10000000000;
 		}
 
-		printf("%lu, %lu", half1, half2);
+		printf("%lu%lu", half1, half2);
 		if (n != 98)
 			printf(", ");
 
@@ -49,4 +49,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
