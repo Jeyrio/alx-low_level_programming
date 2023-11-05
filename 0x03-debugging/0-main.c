@@ -4,6 +4,7 @@
 * main - tests function that prints if integer is positive or negative
 * Return: 0
 */
+int positive_or_negative();
 
 int main(void)
 {
@@ -11,9 +12,6 @@ int main(void)
 
         i = 98;
         positive_or_negative(i);
-	{
-		printf("%d\n" is positive, i);
-	}
 
         return (0);
 }
