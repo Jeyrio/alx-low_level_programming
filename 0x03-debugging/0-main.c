@@ -2,9 +2,10 @@
 
 /**
 * main - tests function that prints if integer is positive or negative
+* @i: The character to be checked
 * Return: 0
 */
-void positive_or_negative(int);
+void positive_or_negative();
 
 int main(void)
 {
