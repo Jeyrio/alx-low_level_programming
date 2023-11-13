@@ -13,15 +13,15 @@ void print_fizz_buzz(int limit)
 
 	for (i = 1; i <= limit; i++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if ((i % 3) == 0 && (i % 5) == 0)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (i % 3 == 0)
+		else if ((i % 3) == 0)
 		{
 			printf("Fizz ");
 		}
-		else if (i % 5 == 0)
+		else if ((i % 5) == 0)
 		{
 			printf("Buzz ");
 		}
