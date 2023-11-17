@@ -19,12 +19,11 @@ int check_prime(int a, int b)
 	}
 	return (check_prime(a, b + 1));
 }
-
 /**
  * is_prime_number - Function that returns if its a prime
  * @n: The input number
  *
- * Return: 1 if a prime or 0 otherwise
+ * Return: 0 or 1
  */
 int is_prime_number(int n)
 {
