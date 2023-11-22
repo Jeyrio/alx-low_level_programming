@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Program that prints the number of arguments passed into it
@@ -9,4 +9,7 @@
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
+	printf("%d\n", argc);
 
+	return (0);
+}
