@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - Program that prints its name, followed by a new line
  * @argc: Argument count of a string
  * @argv: Argument vector of a string
  *
