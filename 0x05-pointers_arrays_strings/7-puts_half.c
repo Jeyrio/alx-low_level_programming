@@ -18,10 +18,9 @@ void puts_half(char *str)
 
 	second_half_string = length / 2;
 
-	while (str[second_half_string] != '\0')
+	for (; str[second_half_string] != '\0'; second_half_string++)
 	{
 		_putchar(str[second_half_string]);
-		second_half_string++;
 	}
 	_putchar('\n');
 }
