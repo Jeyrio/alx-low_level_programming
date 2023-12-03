@@ -20,6 +20,10 @@ void puts_half(char *str)
 	{
 		second_half_string = length / 2;
 	}
+	else
+	{
+		second_half_string = (length - 1) / 2;
+	}
 
 	while (str[second_half_string] != '\0')
 	{
