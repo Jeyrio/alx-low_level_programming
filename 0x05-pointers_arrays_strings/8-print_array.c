@@ -16,7 +16,8 @@ void print_array(int *a, int n)
 
 	if (n <= 0)
 	{
-		printf("/n");
+		printf("\n");
+		return; /** Exit the function if there are no element to print**/
 	}
 
 	printf("%d", *a);
