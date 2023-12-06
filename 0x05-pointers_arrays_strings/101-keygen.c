@@ -10,10 +10,11 @@
  */
 int main(void)
 {
-	int sum = 0;
+	int sum;
 	char c;
 
 	srand(time(NULL));
+	sum = 0;
 
 	while (sum <= 2645)
 	{
