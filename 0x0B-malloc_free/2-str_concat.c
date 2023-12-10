@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s2 != NULL)
 	{
-		strcat(s, s2)
+		strcat(s, s2);
 	}
 	else
 	{
