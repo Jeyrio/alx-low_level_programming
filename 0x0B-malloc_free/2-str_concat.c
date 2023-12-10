@@ -28,6 +28,10 @@ char *str_concat(char *s1, char *s2)
 	{
 		strcpy(s, s1);
 	}
+	else
+	{
+		*s = '\0';
+	}
 
 	if (s2 != NULL)
 	{
