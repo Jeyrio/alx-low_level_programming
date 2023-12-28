@@ -21,7 +21,7 @@ void ch_free_grid(char **grid, size_t height)
 /**
  * **strtow - Function that splits a string into words
  *
- * @str: Pointer to an array of string to be checked
+ * @str: Pointer to a string to be split
  *
  * Return: Always 0 (Success)
  */
@@ -58,6 +58,7 @@ char **strtow(char *str)
 					ch_free_grid(s, i);
 					return (NULL);
 				}
+				C
 				break;
 			}
 		}

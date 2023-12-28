@@ -5,7 +5,7 @@
  * **alloc_grid - Function that returns a pointer to a
  * 2 dimensional array of integers
  *
- * @width: width of the grid
+ * @width:  width of the grid
  * @height: height of the grid
  *
  * Return: Always 0 (Success)
