@@ -47,5 +47,5 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		memcpy(ptr1, ptr, min_size);
 		free(ptr);
 	}
-	return (ptr);
+	return (ptr1);
 }
