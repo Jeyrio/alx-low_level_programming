@@ -8,13 +8,12 @@
 
 ## README file explaining what each script does
 
-```
-1. What is a dynamic library, how does it work, how to create one, and how to use it
-2. What is the environment variable $LD_LIBRARY_PATH and how to use it
-3. What are the differences between static and shared libraries
-4. Basic usage nm, ldd, ldconfig
 
-```
+- What is a dynamic library, how does it work, how to create one, and how to use it
+- What is the environment variable $LD_LIBRARY_PATH and how to use it
+- What are the differences between static and shared libraries
+- Basic usage nm, ldd, ldconfig
+
 **Tasks**
 
 0. A library is not a luxury but one of the necessities of life - [libdynamic.so](./libdynamic.so) - Created the dynamic library libdynamic.so containing all the functions list in the file.
