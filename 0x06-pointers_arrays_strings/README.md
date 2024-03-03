@@ -6,6 +6,7 @@
 [Practical use of pointers in C Programming](https://www.youtube.com/watch?v=KzLC_9VAoX0)
 
 **LEARNING OBJECTIVES**
+
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 General:
