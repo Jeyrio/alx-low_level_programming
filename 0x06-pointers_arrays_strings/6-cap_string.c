@@ -11,17 +11,26 @@
 char *cap_string(char *str)
 {
 	char *ptr = str;
+	int upperfirst_char = 1;
 
 	while (*ptr != '\0')
 	{
-		if (*ptr >= 'a' && *ptr <= 'z')
+		if ((*ptr >= 'a' && *ptr <= 'z') || (*ptr >= 'A' && *ptr <= 'Z'))
 		{
-			if (*(ptr - 1) == ' ' || *(ptr - 1) == '\t' || *(ptr - 1) == '\n')
+			if (upperfirst_char == 1)
 			{
-				if (ptr > str)
+				if (*ptr >= 'a' && *ptr <= 'z')
 				{
 					*ptr -= 32;
 				}
+				upperfirst_char = 0;
+			}
+		}
+		else
+		{
+			if (*ptr == ' ' || *ptr == '\t' || *ptr == '\n')
+			{
+				upperfirst_char = 1;
 			}
 		}
 		ptr++;
